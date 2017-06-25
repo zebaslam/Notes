@@ -18,7 +18,7 @@
   * `productWasSelected` is the function we want to call when something new is sent to this output
   * `$event` is a special variable that represents the thing emitted on (sent to) the output
 * `@Component ({selector: 'my-component'}) class MyComponent {@Input ('shortName') name: String; @Input('oldAge') age: number;}`
-  * The ** property name** (name, age) represent how the incoming property will be visible in the controller
+  * **Property name** (name, age) represents how the incoming property will be visible in the controller
   * The @Input argument (shortName, oldAge) configures how the property is visible to the 
     outside world
 * The output syntax follows the format of `(output)="action"`
