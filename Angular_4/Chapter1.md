@@ -59,7 +59,10 @@
 ### String Interpolation
 * Angular allows string interpolation through the `$value` symbols
 
-##Events, functions and template variables
+  ​
+
+## Events, functions and template variables
+
 `<button (click)="addArticle(newtitle, newlink)" class="ui positive right floated button"> Submit link </button>`
 * In the above source code we can see that our html template is calling a function addArticle on a click event to our button and passing in the vales newtitle and newclick.
   * newtitle and newlink are template variables and use this syntax in an input element `#newtitle` 
