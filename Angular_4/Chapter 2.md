@@ -1,4 +1,4 @@
-#Chapter 2: How Angular Works
+# Chapter 2: How Angular Works
 
 ## Application 
 
@@ -20,6 +20,6 @@
 * `@Component ({selector: 'my-component'}) class MyComponent {@Input ('shortName') name: String; @Input('oldAge') age: number;}`
   * The ** property name** (name, age) represent how the incoming property will be visible in the controller
   * The @Input argument (shortName, oldAge) configures how the property is visible to the 
-outside world
+    outside world
 * The output syntax follows the format of `(output)="action"`
 * **EventEmitter**: An object that implements the Observer pattern, it will maintain a list of subscribers and publish events to them.
