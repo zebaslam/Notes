@@ -23,3 +23,4 @@
     outside world
 * The output syntax follows the format of `(output)="action"`
 * **EventEmitter**: An object that implements the Observer pattern, it will maintain a list of subscribers and publish events to them.
+  * ``` let ee= new EventEmitter(); ee.subscribe((name: string) => console.log(`Hello ${name}`)); ee.emit("Nate");```
