@@ -19,3 +19,14 @@
 * ReactiveFormModule gives us directives like
   * formControl
   * ngFormGroup
+### ngForm
+* ngForm does something non-obvious, that is, it automatically attaches to to any form tags if the FormsModule is imported. This is useful but confusing.
+* ngForm provides the following functionality:
+  * A FormGroup named ngForm
+  * An (ngSubmit) output
+* Ex: `<form #f="ngForm" (ngSubmit)="onSubmit(f.value)">`
+  * In english: When I submit thus
+  * The `#v=thing` syntax says we want to create a local variable for this view.
+  * In the above example, we create a variable #f which represents an alias to ngForm which comes from the ngForm directive (auto attached to form tag)
+  * ngForm has type FormGroup which means f is of type FormGroup.
+  * on submit (ngSubmit) we get the values (key/value pairs) of the form group and pass it to a function onSubmit defined in our component class
