@@ -116,3 +116,6 @@ export class DemoFormSkuWithBuilderComponent implements OnInit {
 * In the above snippet, were telling Angular we want to use myForm as the FormGroup for this form. 
  * Note: NgForm wont be applied to a form that has formGroup
 * The above snippet also binds the formControl directive to specify that we want to look at myForm.controls and use the existing sky FormControl for this input.
+
+To create a new FormGroup and FormControls implicitly use ngForm and ngModel.
+To bind to an existing FormGroup and use FormControls use formGroup and formControl. 
