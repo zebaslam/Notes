@@ -29,6 +29,8 @@ In place operation is about 1.5 times faster than the plus equals operator.
 * `['a', 'b'].map(&:capitalize)` capitalizes each element in the array
 
 ## Classes and Objects
+Class names are often nouns.
+
 ### Instance Variables
 Instance variables are always of the format `@variable`
 
@@ -41,3 +43,8 @@ Format would be: `attr_reader :x, :y, :z`
 
 ### Inheritance
 The following shows that Magazine is a subclass of Publication: `class Magazine < Publication`. `<` is the inherits symbol.
+
+## Modules
+Modules are bundles of methods and constants that can be `include`d in a class but cannot be instantiated.
+They use the `module` keyword.
+Module names are often adjectives.
